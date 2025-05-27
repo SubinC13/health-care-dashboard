@@ -1,0 +1,40 @@
+* {
+  font-family: "Nunito", sans-serif !important;
+}
+
+.organ-cards-container {
+  margin-top: 10px;
+}
+
+.organ-card {
+  background-color: #f6faff;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .organ-card {
+    margin: 10px;
+  }
+}
+
+.organ-avatar {
+  background: none !important;
+  font-size: 30px !important;
+  width: fit-content !important;
+  height: fit-content !important;
+  border-radius: unset !important;
+}
+
+.organ-text {
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  color: #3333aa !important;
+}
+
+.organ-date {
+  font-size: 12px !important;
+  color: #94a4af !important;
+  font-weight: 600 !important;
+}

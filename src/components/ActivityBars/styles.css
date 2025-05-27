@@ -1,0 +1,13 @@
+.activity-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #5953a2;
+  font-family: "Roboto", sans-serif;
+}
+
+.activity-subtitle {
+  font-size: 14px;
+  color: #96a5b0;
+  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+}

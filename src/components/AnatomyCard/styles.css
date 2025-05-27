@@ -1,0 +1,86 @@
+* {
+  font-family: "Nunito", sans-serif !important;
+}
+
+.anatomy-container {
+  position: relative;
+  width: 60%;
+  max-width: 400px;
+  left: 20%;
+  background-color: #f6faff;
+  border-radius: 20px;
+  padding: 20px 0px;
+}
+
+@media screen and (max-width: 900px) {
+  .anatomy-container {
+    margin: auto;
+    left: auto;
+    width: 80%;
+  }
+}
+
+.anatomy-image {
+  width: 80%;
+  height: 450px;
+  object-fit: contain;
+  margin-left: 10%;
+}
+
+.zoom-icon {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  color: #a3adab;
+  padding: 6px;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+.label {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); */
+}
+
+.heart-label {
+  top: 25%;
+  right: 50%;
+  transform: translateX(100%);
+  /* background-color: #4338ca; */
+  color: white;
+}
+
+.leg-label {
+  bottom: 26%;
+  left: 52%;
+  transform: translateX(-100%);
+  color: black;
+}
+
+.leg-lable-icon {
+  background-color: #04e1f1;
+  color: #0568ab;
+  font-weight: 800;
+  font-size: 14px;
+  padding: 10px 18px;
+  width: max-content;
+  border-radius: 10px;
+}
+
+.heart-icon {
+  background-color: #3333a8;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 10px 18px !important;
+  width: max-content;
+  border-radius: 10px;
+}
+.icon {
+  margin-right: 6px;
+}

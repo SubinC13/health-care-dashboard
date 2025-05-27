@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+.third-section {
+  background-color: rgb(246, 248, 255);
+  display: block;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 10%;
+}
+
+@media (min-width: 1100px) {
+  .third-section {
+    width: 30%;
+    flex-shrink: 0;
+    margin: 10px;
+    border-radius: 0px 20px 20px 0px;
+  }
+}
+
+.header-title-btn {
+  font-size: 16px !important;
+  font-weight: 600;
+  color: #4538d3 !important;
+  padding-left: 0px !important;
+}
+
+.back-btn-icon {
+  width: 18px !important;
+  height: 16px !important;
+}
+
+.third-section.hidden {
+  display: none;
+}
+
+.app-container {
+  padding: 2rem;
+  font-family: "Nunito", sans-serif;
+  background-color: #f6f8ff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.header-actions {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.icon {
+  border-radius: 12px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon.doctor {
+  background: #00d1ff;
+}
+
+.icon.add {
+  background: #4538d3;
+  color: #fff;
+  font-weight: bold;
+  width: 25px;
+  height: 25px;
+}
+
+.appointments-container {
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.appointment-weekdate {
+  font-size: 14px;
+  font-weight: 400;
+  color: #8d93a2;
+  font-family: "Nunito", sans-serif;
+}

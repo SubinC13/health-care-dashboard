@@ -1,0 +1,40 @@
+* {
+  font-family: "Nunito", sans-serif !important;
+}
+
+.appointment-cards-container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.appointment-card {
+  padding: 1rem;
+  border-radius: 20px;
+  /* min-width: 200px; */
+}
+
+.appointment-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  gap: 10px;
+}
+
+.appointment-title {
+  font-size: 13px;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif !important;
+}
+
+.appointment-icon {
+  font-size: 1.2rem;
+}
+
+.appointment-time,
+.appointment-doctor {
+  font-size: 12px;
+  margin-top: 0.25rem;
+}

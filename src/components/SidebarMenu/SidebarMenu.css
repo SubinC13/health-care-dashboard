@@ -1,0 +1,18 @@
+ul {
+  padding: 0;
+}
+
+a {
+  padding-left: 0px;
+}
+
+.menuText {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #cbd1d5;
+}
+
+.Dashboard {
+  color: #19154a;
+}
