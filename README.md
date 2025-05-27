@@ -15,18 +15,24 @@ A modern, responsive healthcare dashboard built using **React** and **Vite**, sh
 ## 📁 Project Structure
 
 📦 healthcare-portal
-├── src/ # Source code
-│ ├── assets/ # Icons, Images, and Mock Data
-│ ├── components/ # Reusable UI Components
-│ ├── layouts/ # Page Layout Components
-│ ├── App.jsx # Root App component
-│ ├── main.jsx # App Entry point
-│ └── index.css # Global styles
-├── index.html # HTML template
-├── package.json # Project config and dependencies
-├── vite.config.js # Vite configuration
-└── README.md # You’re reading it!
-
+```
+└── 📁healthcare-portal
+    └── 📁src
+        └── App.css
+        └── App.jsx
+        └── 📁assets
+            └── 📁icons
+            └── 📁images
+            └── 📁MocDate
+        └── 📁components
+        └── index.css
+        └── 📁layouts
+        └── main.jsx
+    └── index.html
+    └── package.json
+    └── README.md
+    └── vite.config.js
+```
 
 ## 📊 Features
 
